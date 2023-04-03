@@ -10,14 +10,14 @@ import fileDownload from "js-file-download";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Editor() {
-  const InitialVal = `## Welcome to Editor
+  const InitialVal = `## Welcome to Cent Editor
 
-  **Features**
+  **Hallmarks**
   
-  - _Custom Toolbar_
-  - _Html Support_
+  - _Download File_
   - _Live Preview_
-  - _Download File_`;
+  - _Html Support_
+  - _Custom Toolbar_`;
 
   const body = {
     background: "#236467",
