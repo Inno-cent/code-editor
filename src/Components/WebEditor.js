@@ -12,7 +12,7 @@ function LaunguageManager() {
     return URL.createObjectURL(blob);
   };
 
-  const htmlDefault = `<h2>Hello User</h2>`;
+  const htmlDefault = `<h2>Hello World</h2>`;
 
   const cssDefault = `body{
   text-align:center;

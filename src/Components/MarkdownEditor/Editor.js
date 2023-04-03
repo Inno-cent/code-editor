@@ -20,7 +20,7 @@ function Editor() {
   - _Download File_`;
 
   const body = {
-    background: "rgb(17 36 39 / 94%)",
+    background: "#236467",
     paddingTop: "30px",
     paddingBottom: "50px",
     fontFamily: "monospace",
@@ -32,7 +32,7 @@ function Editor() {
     minHeight: "80vh",
     padding: "15px 15px",
     borderRadius: "2px",
-    background: "white",
+    background: "#67989A",
     boxShadow: "rgb(0 0 0 / 49%) 2px 2px 10px",
     border: 0,
     outline: "none",
@@ -43,9 +43,9 @@ function Editor() {
     minHeight: "80vh",
     padding: "15px 15px",
     borderRadius: "2px",
-    background: "white",
+    background: "#67989A",
     boxShadow: "rgb(0 0 0 / 49%) 2px 2px 10px",
-    backgroundColor: "#f3f3f3",
+    backgroundColor: "#67989A",
     color: "black",
   };
 

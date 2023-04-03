@@ -5,7 +5,7 @@ import sh1 from "../Assets/shape-1.svg";
 import sh2 from "../Assets/shape-2.svg";
 import sh3 from "../Assets/shape-3.svg";
 import sh6 from "../Assets/shape-6.svg";
-import homeImg from "../Assets/hero-img.png";
+import homeImg from "../Assets/code-ill.jpg";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -52,14 +52,12 @@ function Home() {
   };
 
   return (
-    <div
-      style={{ backgroundColor: "#2a283e", minHeight: "100vh", height: "auto" }}
-    >
+    <div style={{ minHeight: "100vh", height: "auto" }}>
       <Container style={wrapper}>
-        <img src={sh1} alt="fig1" style={shape1} className="shape" />
+        {/* <img src={sh1} alt="fig1" style={shape1} className="shape" />
         <img src={sh2} alt="fig2" style={shape2} className="shape" />
         <img src={sh3} alt="fig3" style={shape3} className="shape" />
-        <img src={sh6} alt="fig6" style={shape6} className="shape" />
+        <img src={sh6} alt="fig6" style={shape6} className="shape" /> */}
         <Row
           className="text-center"
           style={{
@@ -77,7 +75,7 @@ function Home() {
             />
           </Col>
           <Col md={6}>
-            <h2 style={{ color: "#f0c19e" }}>Code Websites From Any Where</h2>
+            <h2 style={{ color: "#f0c19e" }}>Website Coding from Anywhere</h2>
             <h5
               style={{
                 textAlign: "justify",
@@ -85,8 +83,9 @@ function Home() {
                 paddingTop: "10px",
               }}
             >
-              With this online code editor, you can edit HTML, CSS and
-              JavaScript code, and live preview of site instantly.
+              With the help of this online code editor, you can quickly write
+              your HTML, CSS, and JavaScript code and see the live site preview
+              instantly.
             </h5>
             <Button variant="primary" style={btnStyle} as={Link} to="/web">
               Web Editor
@@ -102,8 +101,8 @@ function Home() {
                 paddingTop: "10px",
               }}
             >
-              Online markdown editor, with custom toolbar to help you make your
-              readme easily.
+              Online markdown editor with a personalized toolbar to make
+              creating your readme simple.
             </h5>
             <Button variant="primary" style={btnStyle} as={Link} to="/markdown">
               Markdown Editor
