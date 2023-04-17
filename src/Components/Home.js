@@ -1,10 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import sh1 from "../Assets/shape-1.svg";
-import sh2 from "../Assets/shape-2.svg";
-import sh3 from "../Assets/shape-3.svg";
-import sh6 from "../Assets/shape-6.svg";
 import homeImg from "../Assets/code-ill.jpg";
 import { Link } from "react-router-dom";
 import "../App.css";
@@ -20,32 +16,6 @@ function Home() {
     position: "relative",
   };
 
-  const shape1 = {
-    left: 0,
-    right: 0,
-    margin: "auto",
-    top: "90px",
-    position: "absolute",
-  };
-
-  const shape2 = {
-    right: "380px",
-    top: "280px",
-    position: "absolute",
-  };
-
-  const shape3 = {
-    right: "88px",
-    top: "230px",
-    position: "absolute",
-  };
-
-  const shape6 = {
-    right: "272px",
-    bottom: "0px",
-    position: "absolute",
-  };
-
   const btnStyle = {
     backgroundColor: "#5c4389",
     border: 0,
@@ -54,10 +24,6 @@ function Home() {
   return (
     <div style={{ minHeight: "100vh", height: "auto" }}>
       <Container style={wrapper}>
-        {/* <img src={sh1} alt="fig1" style={shape1} className="shape" />
-        <img src={sh2} alt="fig2" style={shape2} className="shape" />
-        <img src={sh3} alt="fig3" style={shape3} className="shape" />
-        <img src={sh6} alt="fig6" style={shape6} className="shape" /> */}
         <Row
           className="text-center"
           style={{
