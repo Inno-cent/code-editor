@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import homeImg from "../Assets/code-ill.jpg";
+import homeImg from "../Assets/m.jpg";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,7 +22,7 @@ function Home() {
   };
 
   return (
-    <div style={{ minHeight: "100vh", height: "auto" }}>
+    <div style={{ minHeight: "100vh", height: "auto", background: "#000" }}>
       <Container style={wrapper}>
         <Row
           className="text-center"
